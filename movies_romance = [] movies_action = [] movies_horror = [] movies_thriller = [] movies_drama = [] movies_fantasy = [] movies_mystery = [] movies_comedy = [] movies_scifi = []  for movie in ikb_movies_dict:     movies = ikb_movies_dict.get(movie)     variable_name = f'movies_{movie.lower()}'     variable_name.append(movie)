@@ -1,0 +1,14 @@
+movies_romance = []
+movies_action = []
+movies_horror = []
+movies_thriller = []
+movies_drama = []
+movies_fantasy = []
+movies_mystery = []
+movies_comedy = []
+movies_scifi = []
+
+for movie in ikb_movies_dict:
+    movies = ikb_movies_dict.get(movie)
+    variable_name = f'movies_{movie.lower()}'
+    variable_name.append(movie)
